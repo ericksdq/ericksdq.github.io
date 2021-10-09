@@ -1,0 +1,24 @@
+.texto-simples{
+    color: brown;
+}
+
+#texto-complexo{
+    color: rgb(255, 0, 0)
+}
+.texto-translucido{
+    color: rgba(255, 0,  0, 0.5);
+}
+
+.back-simple{
+    background-color: #0000ff;
+}
+.back-translucido{
+    background-color: rgba(0, 255, 0, 0.3);
+}
+.back-imagem-unica{
+    background-image: url('/imagens/css_1.png');
+    background-repeat: no-repeat;
+}
+.posicao-especifica{
+    background-position: center right;
+}
