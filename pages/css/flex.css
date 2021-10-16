@@ -1,0 +1,33 @@
+header{
+    background-color: brown;
+    margin: 16px;
+    color: white;
+}
+body{
+    margin-left: 32px;
+    margin-top: 32px;
+    background-image: url('https://thumbs.dreamstime.com/b/nahtloses-muster-mit-geometrischen-verzierungen-blau-und-wei%C3%9F-vector-illustration-165829910.jpg');
+}
+
+h1{
+    text-align: center;
+}
+
+.card, article{
+    border: 1px dashed black;
+    background-color: rgba(00, 255, 255, .2);
+    padding: 16px;
+    margin-bottom: 8px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-shadow: 8px 8px 16px rebeccapurple;
+}
+
+article{
+    width: 300px;
+}
+
+section{
+    display: flex;
+    flex-direction: column-reverse;
+}
