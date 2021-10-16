@@ -22,3 +22,19 @@
 .posicao-especifica{
     background-position: center right;
 }
+
+.box{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 50%;
+    height: 50%;
+    min-height: 300px;
+}
+
+#back-imagens-multiplas{
+    background-image: url('/imagens/css_1.png'), url('/imagens/css_2.png'), url('/imagens/css_1.png'), url('/imagens/css_2.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right, top right, bottom left;
+    background-size: 64px, 64px, 64px, 64px;
+}
